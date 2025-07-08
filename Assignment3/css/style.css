@@ -206,10 +206,11 @@ h1 {
 
 .featureMain {
     display: flex;
+    margin: 32px 32px;
     gap: 127px;
     flex-wrap: wrap;
     align-items: center;
-    
+
 }
 
 .feature .container:nth-child(2) .featureMain {
