@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    padding: 2px 0;
+    padding: 32px;
     background-color: transparent;
     position: relative;
     z-index: 2;
