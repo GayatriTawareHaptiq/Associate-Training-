@@ -39,6 +39,7 @@ header {
 
 /* Nav styling */
 .navlinks .links {
+    padding: 8px 24px;
     list-style: none;
     display: flex;
     gap: 24px;
@@ -79,6 +80,38 @@ header {
     position: relative;
     z-index: 1;
     margin-bottom: 128px;
+}
+.btn a{
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.4rem;
+text-align: center;
+
+color: #FFFFFF;
+text-decoration: none;
+
+
+}
+.btn img{
+    width: 24px;
+    height: 24px;
+
+}
+
+.btn{
+    
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+gap: 16px;
+
+background: #6C00FF;
+border-radius: 100px;
+
 }
 
 .Banner .Container {
