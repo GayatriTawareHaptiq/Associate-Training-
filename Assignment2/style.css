@@ -48,10 +48,11 @@ body{
 
 .info{
     max-width: 600px;
-}
-.info p{
     margin-bottom: 50px;
 }
+/*.info p{
+    margin-bottom: 50px;
+}*/
 
 .navbar a{
     text-decoration: none;
