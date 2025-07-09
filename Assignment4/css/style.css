@@ -384,7 +384,7 @@ background: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0
   width: 329px;
 
   flex: 1 1 calc(25% - 15px); /* Four cards per row with spacing */
-  max-width: calc(25% - 15px);
+  max-width: 100%;
   background-size: cover;
   background-position: center;
   padding: 24px;
@@ -435,19 +435,19 @@ background: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0
 
 
 .industryProject1 {
-   background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.1.jpg');
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.1.jpg') no-repeat;
 
 }
 .industryProject2 {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.2.jpg');
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.2.jpg') no-repeat;
 }
 
 .industryProject3 {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.3.jpg');
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.3.jpg') no-repeat;
 }
 
 .industryProject4 {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.4.jpg');
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0) 100%), url('../Images/post.4.jpg')no-repeat;
 }
 
 /*Footer Section*/
