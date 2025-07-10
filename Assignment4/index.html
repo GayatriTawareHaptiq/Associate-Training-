@@ -8,34 +8,54 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+   
 
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <section class="header">
-        <div class="container">
-            <div class="heading">
-                <div class="logo">
-                    <h2>BrandName</h2>
-                </div>
-                <nav class="list">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Product</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <div class="login">
-                    <a href="#">Login</a>
-                </div>
-                <div class="memberBtn">
-                    <a href="#">Become a member</a>
-                </div>
+   <!-- Header Section -->
+<section class="header">
+    <div class="container">
+        <div class="heading">
+            <div class="logo">
+                <h2>BrandName</h2>
+            </div>
+
+            <nav class="list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+
+            <div class="memberBtn">
+                <a href="#">Become a member</a>
+            </div>
+
+            <!-- Hamburger Menu Icon for Small Screens -->
+            <div class="menuNavigation" id="menuNavigation">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-    </section>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div class="mobileMenu" id="mobileMenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 
     <!-- Banner Section -->
     <section class="banner">
@@ -163,11 +183,11 @@ but things on a small scale.</p>
 </div>
   </div>
 </section>
+  <!-- Industry Section -->
 
 <section class="industrySection">
-     <div class="container">
-        <div class="industryHeading">
-       
+  <div class="container">
+    <div class="industryHeading">
       <h2>Industry</h2>
       <div class="industryText">
         <p>
@@ -177,8 +197,7 @@ but things on a small scale.</p>
       </div>
     </div>
 
-     <div class="projects">
-
+    <div class="projects">
       <div class="industryProject industryProject1">
         <h3>Tax Management</h3>
         <div class="projectPara">
@@ -211,13 +230,9 @@ but things on a small scale.</p>
         <a href="#" class="viewProjectBtn">View Project</a>
       </div>
     </div>
-
-     </div>
-  
-    
-   
-  
+  </div>
 </section>
+
 
 
 <section class="Footer">
@@ -281,6 +296,13 @@ but things on a small scale.</p>
     
 </section>
 
+<script>
+  const menuIcon = document.getElementById("menuNavigation");
+  const mobileMenu = document.getElementById("mobileMenu");
 
+  menuIcon.addEventListener("click", () => {
+    mobileMenu.style.display = mobileMenu.style.display === "flex" ? "none" : "flex";
+  });
+</script>
 </body>
 </html>
