@@ -15,7 +15,7 @@ body {
 .contentWrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding:  0 20px;
 }
 
 .headerContainer {
@@ -94,6 +94,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 50px;
+    display: inline-block;
 }
 
 .blogSection {
@@ -253,7 +254,7 @@ body {
 
 @media (max-width: 768px){
     .contentWrapper{
-        padding: 16px;
+        padding: 30px;
     }
      
     .mainNavbar{
