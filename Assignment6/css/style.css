@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding:0 auto;
+    font-family: "Crimson Text",sans-serif;
+     box-sizing: border-box;
+}
+
+.body{
+    background-color: #fff;
+    color: #21243D;
+}
+
+.container{
+    max-width: 1180px;
+    padding: 16px;
+    margin: 0 auto;
+
+}
+.Header{
+    background-color: #74C69D;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.headNav{
+    display: flex;
+    gap: 18px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.nav ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  line-height: 125%;
+  font-weight: 400
+}
+.bannerHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+.banner{
+    margin-bottom: 60px;
+}
+
+.bannerText {
+  flex: 1;
+}
+
+.bannerText h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.bannerText h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.bannerPara p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.bannerText a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #000;
+}
+
+.bannerImage {
+  flex: 1;
+  text-align: right;
+}
+
+.bannerImage img {
+  max-width: 100%;
+  height: auto;
+}
+.bannerText .ExploreBtn {
+  background-color: #fff;         
+  color: #000;                    
+  padding: 13px 8.5px 10px 47.5px; 
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.banner .bannerImage{
+    height: 378.13018798828125;
+    width: 644.2794189453125;
+}
+
+.companyBanner {
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-bottom: 73px;
+}
+
+.companyText h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: 16px;
+  color: #74C69D;
+}
+
+.companyText h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #000000;
+}
+
+.companyPara  {
+  font-size: 20px;
+  font-weight: 400;
+  color:#000000;
+  margin-bottom: 55px;
+  line-height: 125%;
+}
+.companyIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px; 
+  flex-wrap: wrap;
+}
+
+.companyIcons img {
+  width: 152.64px;
+  height: 50px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.companyIcons img:hover {
+  opacity: 1;
+}
+
+.portfolioInfo .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 110px; 
+  flex-wrap: wrap; 
+}
+
+.portFolioImg {
+  flex: 1;
+  max-width: 50%;
+}
+
+.portFolioImg img {
+  width: 600px;
+  height: 431.43px;
+}
+
+.portfolioContent {
+  flex: 1;
+  max-width: 50%;
+  padding: 88.22px 0;
+}
+
+.portfolioContent h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 125%;
+
+}
+
+.portfolioPara p {
+  font-size: 15px;
+  line-height: 125%;
+  margin-bottom: 16px;
+
+}
+.portfolioInfo {
+  margin-bottom: 88.22px; 
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.portfolioInfo.reverse .portfolio {
+  flex-direction: row-reverse;
+}
+
+
+.learnMOreBtn a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:#000;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 29.5px 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+
+}
+
+.portfolioInfo.reverse .container {
+  flex-direction: row-reverse;
+}
+
+.portfolioInfo.reverse{
+    margin-bottom: 102.27px;
+}
+
+.talentInfo h3{
+    font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #74C69D;
+  letter-spacing: 5px;
+
+}
+.talentInfo h1{
+     color: #212529;
+     font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+
+}
+.talentPara{
+     color: #212529;
+     font-weight:400;
+  font-size: 20px;
+  line-height: 125%;
+
+}
+
+
+.talentInfo {
+    text-align: center;
+    margin-bottom: 45px; 
+}
+
+.talentCards {
+  display: flex;
+  justify-content: center;
+  gap: 47px;
+  flex-wrap: nowrap;
+  align-items: stretch; 
+  margin-bottom: 45px;
+}
+
+
+
+.talentId {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+    padding: 20px 39px 19px 38px;
+}
+
+
+.talentId:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.talentImg img {
+  padding: 13.5px 19px; 
+  max-width: 175px;
+  height: 175px;
+}
+
+
+.talentId h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #21243D;
+    line-height: 125%;
+}
+
+
+.talentId h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #212529BF;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.viewBtn {
+  text-align: center;
+  
+}
+
+.viewBtn a {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 32.5px 10px 33.5px;
+  font-size: 16px;
+}
+.Talents .container{
+    margin-bottom: 54px;
+}
+
+.Footer {
+  background-color: #74C69D; 
+  padding: 51px 131px 49px 131px;
+}
+
+.footContent {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.icons {
+  display: flex;
+  gap: 20px; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.icons li img {
+  width: 9.64px; 
+  height: 18px;
+}
+
+.copyright p {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 125%
+
+
+}
+
+.pageTitle h1 {
+  font-size: 40px;
+  color: #000;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 16px
+}
+
+.pageTitlePara {
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 82px;
+}
+
+
+.pageTitle h2{
+     font-size: 16px;
+  color:#74C69D;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 5px;
+  margin-bottom: 13px;
+
+}
+.pageTitle {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.pages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 55px;
+  justify-items: center;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.pageBlock {
+  width: 570px;
+  height: 334.54px;
+  overflow: hidden;
+}
+
+.pageBlock img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+}
+
+.learnMoreBtn {
+  text-align: center;
+
+}
+
+.learnMoreBtn a {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 33.5px 10px 33.5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 99px;
+}
+
+.serviceTitle {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.serviceTitle h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #74C69D;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.serviceTitle h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+  line-height: 125%;
+}
+
+.servicePara {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.25;
+  margin-bottom: 52px;
+}
+
+
+.serviceCard h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #21243D;
+  margin-bottom: 0;
+ 
+}
+
+
+.services .container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: nowrap; 
+  justify-content: center;
+  overflow-x: auto;  
+  padding-bottom: 20px;
+}
+
+.serviceCard {
+  width: 339px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px 46px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 46px; 
+  transition: transform 0.3s ease;
+  flex-shrink: 0; 
+  margin-bottom: 135px;
+  
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.serviceHeading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  gap: 10px; 
+
+} 
+
+.serviceHeading h3{
+   
+font-weight: 400;
+font-size: 15px;
+line-height: 1.25;
+color: rgba(33, 37, 41, 0.5);
+
+
+}
+.serviceHeading h2{
+
+font-weight: 400;
+font-size: 15px;
+line-height: 1.25;
+color: #000000;
+
+
+}
+.serviceHeading h1{
+ 
+font-weight: 700;
+font-size: 40px;
+line-height: 125%;
+
+
+color: #000000;
+
+
+}
+
+.serviceCardPara p {
+  font-size: 15px;
+  color:#21252980;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 52px;
+}
+
+.serviceCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.serviceCard ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color:#212529;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.serviceCard ul li img {
+  width: 17.19px;
+  height: 13.8px;
+}
+
+
+
+.serviceCard .learnMoreBtn{
+  margin-bottom: 46px;
+}
+@media (max-width: 1100px) {
+  
+  .heading, .bannerHead, .portfolio {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bannerText, .bannerImage {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bannerImage {
+    text-align: center;
+  }
+
+  .bannerImage img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Portfolio Section  */
+  .portfolio {
+    flex-direction: column;
+  }
+
+  .portfolioInfo.reverse .portfolio {
+    flex-direction: column;
+  }
+
+  .portFolioImg, .portfolioContent {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .portFolioImg img {
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolioContent {
+    padding: 20px 0;
+  }
+
+ 
+  .talentCards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+   /* Service  Section  */
+ 
+  .services .container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .serviceCard {
+    scroll-snap-align: start;
+  }
+
+ 
+  .footContent {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .pageBlock {
+    width: 90%;
+    height: auto;
+  }
+
+  .pageBlock img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+   .services .container {
+    flex-direction: column;     
+    overflow-x: visible;       
+    align-items: center;      
+    gap: 50px;                 
+  }
+
+  .serviceCard {
+    width: 90%;                
+    max-width: 400px;
+    margin-bottom: 40px;        
+  }
+}
