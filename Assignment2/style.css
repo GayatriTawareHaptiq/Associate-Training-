@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo" ,sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    background-color: #fff;
+    color: #21243D;
+}
+
+.Container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.heading{
+
+    padding:30px;
+    margin-bottom: 30px;
+}
+.navbar{
+
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-bottom: 80px;
+  
+    
+}
+.navbar .logo a{
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .elements {
+    
+    font-weight: 500;
+    font-size: 20px;
+     list-style: none;
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+.info{
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+/*.info p{
+    margin-bottom: 50px;
+}*/
+
+.navbar a{
+    text-decoration: none;
+    list-style: none;
+       color: #000000;
+
+}
+.Section1{
+    margin-bottom: 50px;
+}
+.Section1 h1{
+    font-size: 44px;
+    width: 506px;
+    height: 105px;
+    margin-bottom: 50px;
+  
+}
+
+.imageProfile{
+    height: 243px;
+    width: 243px;
+    object-fit: cover;
+
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-pic {
+    height: 243px;
+    width: 243px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn{
+    padding:10px;
+    background-color: #FF6464;
+    text-decoration: none;
+    color: #fff;
+    width: 208px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+.Section2{
+    background-color: #EDF7FA;
+}
+.Section2 .viewLine{
+     display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     list-style: none;
+}
+.RecentPost{
+    margin-bottom: 10px;
+}
+.Section2 .RecentPost a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #21243D;
+    font-weight: 400px;
+    
+}
+.Section2 .viewAll a{
+    text-decoration: none;
+    color: #00A8CC;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+
+}
+.blog1{
+   background-color: #FFFFFF;
+   
+padding: 24px 34px;
+}
+.blog1-info{
+    margin-bottom: 10px;
+}
+.blog2-info{
+    margin-bottom: 10px;
+}
+.blog2{
+    background-color: #FFFFFF;
+   
+   padding: 24px 34px;
+
+}
+.dash{
+    padding: 20px;
+}
+
+
+.blogs h2{
+    color: #21243D;
+    font-size: 26px;
+    font-weight: 700;
+}
+.blog1 p{
+    font-size: 16px;
+}
+.blog2 .blog2-info a{
+    text-decoration: none;
+     color: #21243D;
+     font-size: 18px;
+     font-weight: 400;
+}
+.blog1 .blog1-info a{
+    text-transform: none;
+     color: #21243D;
+     font-size: 18px;
+     font-weight: 400;
+}
+
+.Section3 a {
+    text-decoration: none;
+}
+
+.Section3 .featured {
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.Section3 {
+    margin-bottom: 83px;
+}
+
+
+.featured2 {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.borderline {
+    display: block;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+.featured1 h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.featured a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 400;
+}.meta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.Date {
+    background-color: #142850;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 4px 12px;
+    display: inline-block;
+}
+
+.tags {
+    text-decoration: none;
+    color: #8695A4;
+    font-size: 20px;
+}
+
+
+    
+.img {
+    height: 184px;
+    width: 248px;
+}
+
+.foot-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px 0;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.images li {
+    list-style: none;
+}
+
+.passage {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}

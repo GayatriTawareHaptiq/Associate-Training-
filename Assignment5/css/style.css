@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #fff;
+    color: #21243D;
+    
+}
+
+.contentWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:  0 20px;
+}
+
+.headerContainer {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.mainNavbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.mainNavbar .siteLogo a {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.mainNavbar .navLinks {
+    font-weight: 500;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.introText {
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.mainNavbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.heroSection {
+    margin-bottom: 50px;
+}
+
+.heroSection h1 {
+    font-size: 44px;
+    width: 506px;
+    height: 105px;
+    margin-bottom: 50px;
+}
+
+.profileImageContainer {
+    height: 243px;
+    width: 243px;
+    object-fit: cover;
+}
+
+.heroProfile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileImage {
+    height: 243px;
+    width: 243px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.resumeDownloadBtn {
+    padding: 10px;
+    background-color: #FF6464;
+    text-decoration: none;
+    color: #fff;
+    width: 208px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.blogSection {
+    background-color: #EDF7FA;
+}
+
+.blogSection .blogHeader {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.recentPostTitle {
+    margin-bottom: 10px;
+}
+
+.blogSection .recentPostTitle a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #21243D;
+    font-weight: 400;
+}
+
+.blogSection .viewAllBtn a {
+    text-decoration: none;
+    color: #00A8CC;
+}
+
+.blogList {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.blogCard {
+    background-color: #FFFFFF;
+    padding: 24px 34px;
+}
+
+.blogMeta {
+    margin-bottom: 10px;
+}
+
+.separator {
+    padding: 20px;
+}
+
+.blogList h2 {
+    color: #21243D;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.blogCard p {
+    font-size: 16px;
+}
+
+.blogMeta a {
+    text-decoration: none;
+    color: #21243D;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.featuredWorkSection {
+    margin-bottom: 83px;
+}
+
+.featuredWorkSection a {
+    text-decoration: none;
+}
+
+.featuredTitle {
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.featuredWorkList {
+    display: flex;
+    flex-direction: column;
+}
+
+.workItem {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.dividerLine {
+    display: block;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px 0;
+}
+
+.workDetails h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.workMeta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.workYear {
+    background-color: #142850;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 4px 12px;
+    display: inline-block;
+}
+
+.workTag {
+    text-decoration: none;
+    color: #8695A4;
+    font-size: 20px;
+}
+
+.workImage {
+    height: 184px;
+    width: 248px;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.socialIcons li {
+    list-style: none;
+}
+
+.footerText {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .contentWrapper{
+        padding: 30px;
+    }
+     
+    .mainNavbar{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+     
+     .navLinks a {
+    font-size: 14px;
+    gap: 10px;
+}
+ 
+    .heroProfile{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    /*imageProfile*/
+   .profileImageContainer{
+    order: -1;
+    margin-bottom: 20px;
+
+   }
+   .introText{
+    margin-bottom: 30px;
+   }
+   .heroSection h1{
+    font-size: 32px;
+        width: 100%;
+        height: auto;
+   }
+    .resumeDownloadBtn {
+        width: 100%;
+        font-size: 18px;
+    }
+    /* Blogs */
+    .blogList {
+        flex-direction: column;
+    }
+
+    .blogCard {
+        width: 100%;
+    }
+
+    /* Featured*/
+    .workItem {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+
+    .workImage {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .workDetails h1 {
+        font-size: 24px;
+    }
+
+    /* Footer*/
+    .socialIcons {
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .footerText {
+        font-size: 12px;
+    }
+
+
+}
