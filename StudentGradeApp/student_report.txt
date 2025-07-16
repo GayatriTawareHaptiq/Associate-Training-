@@ -1,0 +1,205 @@
+--- Class Performance Report ---
+==================================================
+Student Name   | Average | Min | Max | Status
+==================================================
+shriya | No Grades Yet
+==================================================
+
+Enter your choice: 2
+
+--- Enter Student Grades ---
+No students have been added yet. Please add a student first.
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: tita
+
+[Error] Invalid input. Please enter a number.
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 1
+
+--- Add New Student ---
+Enter student's name: sita
+Student 'sita' added successfully!
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 2
+
+--- Enter Student Grades ---
+Enter the name of the student to add grades for: sita
+Enter a grade (0-100) and press Enter. Type 'done' when finished: 33
+Grade 33 added. Enter next grade or type 'done'.
+44
+Grade 44 added. Enter next grade or type 'done'.
+55
+Grade 55 added. Enter next grade or type 'done'.
+3
+Grade 3 added. Enter next grade or type 'done'.
+4
+Grade 4 added. Enter next grade or type 'done'.
+done
+Grades updated for sita
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 3
+
+--- Class Performance Report ---
+==================================================
+Student Name   | Average | Min | Max | Status
+==================================================
+sita           | 27.80   | 3   | 55  | FAIL
+==================================================
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 5
+
+Thank you for using the Grade Tracker. Goodbye!
+gayatritaware@wrl675gayatrit:~/Desktop/JavaTraining$ 
+gayatritaware@wrl675gayatrit:~/Desktop/JavaTraining$  cd /home/gayatritaware/Desktop/JavaTraining ; /usr/bin/env /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /home/gayatritaware/Desktop/JavaTraining/StudentGradeApp/target/classes com.example.gradeapp.GradeTrackerApp 
+=========================================
+ Welcome to the Student Grade Tracker! 
+=========================================
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 1
+
+--- Add New Student ---
+Enter student's name: rahul
+Student 'rahul' added successfully!
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 2
+
+--- Enter Student Grades ---
+Enter the name of the student to add grades for: rahul
+Enter a grade (0-100) and press Enter. Type 'done' when finished: 34
+Grade 34 added. Enter next grade or type 'done'.
+67
+Grade 67 added. Enter next grade or type 'done'.
+89
+Grade 89 added. Enter next grade or type 'done'.
+99
+Grade 99 added. Enter next grade or type 'done'.
+done
+Grades updated for rahul
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 3
+
+--- Class Performance Report ---
+==================================================
+Student Name   | Average | Min | Max | Status
+==================================================
+rahul          | 72.25   | 34  | 99  | PASS
+==================================================
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 4
+
+--- Save Report to File ---
+Report successfully saved to 'student_report.txt'
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 1
+
+--- Add New Student ---
+Enter student's name: ram
+Student 'ram' added successfully!
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 2
+
+--- Enter Student Grades ---
+Enter the name of the student to add grades for: ram
+Enter a grade (0-100) and press Enter. Type 'done' when finished: 34
+Grade 34 added. Enter next grade or type 'done'.
+66
+Grade 66 added. Enter next grade or type 'done'.
+87
+Grade 87 added. Enter next grade or type 'done'.
+54
+Grade 54 added. Enter next grade or type 'done'.
+32
+Grade 32 added. Enter next grade or type 'done'.
+done
+Grades updated for ram
+
+--- MENU ---
+1. Add a new Student
+2. Enter Grades for a Student
+3. Display Class Performance Report
+4. Save Report to File
+5. Exit
+--------------------------
+Enter your choice: 4
+
+--- Save Report to File ---
+Report successfully saved to 'student_report.txt'
+
+
