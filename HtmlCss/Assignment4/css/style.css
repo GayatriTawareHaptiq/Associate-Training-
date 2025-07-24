@@ -36,7 +36,7 @@ body{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 112px;
-  flex-wrap: wrap;          /* allow wrapping */
+  flex-wrap: wrap;         
   gap: 20px;
 }
 
@@ -556,7 +556,7 @@ background: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0
 .list,
 .login,
 .memberBtn {
-  display: block; /* or your desired display */
+  display: block; 
 }
 
 /* Hide desktop menu items and show hamburger menu on small screens */
@@ -572,7 +572,7 @@ background: linear-gradient(89.85deg, #000000 0.13%, #000000 0.14%, rgba(0, 0, 0
   }
 
   .mobileMenu {
-    display: none; /* Hidden by default, shown on toggle */
+    display: none;/
   }
 
   .mobileMenu ul {
