@@ -1,15 +1,23 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Start the logging service
+        OutputManager.start();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        try {
+            // 1. Create the data manager
+            Gradebook gradebook = new Gradebook();
+
+            // 2. Create the user interface, giving it access to the data manager
+            AppUI userInterface = new AppUI(gradebook);
+
+            // 3. Start the application
+            userInterface.start();
+
+        } finally {
+            // 4. Ensure the log file is always closed properly, even if an error occurs
+            OutputManager.log("\nApplication shutting down. Closing resources.");
+            OutputManager.close();
         }
     }
 }
