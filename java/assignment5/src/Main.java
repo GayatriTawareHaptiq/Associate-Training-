@@ -1,15 +1,26 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import java.util.concurrent.*;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+
+
+public class Main {
+    private static  final int numDrivers=10;
+    private static final  int numPassengers=20;
+
+    public static void main(String[] args) throws InterruptedException {
+
+        Semaphore driverSemaphore=new Semaphore(numDrivers);
+        CountDownLatch latch=new CountDownLatch(numPassengers);
+        ExecutorService executor=Executors.newFixedThreadPool(numDrivers);
+
+        DriverPool.initializeDrivers();
+        for(int i=0;i<=numPassengers;i++){
+            executor.execute(new Passenger(i,driverSemaphore,latch));
+
         }
+
+        latch.await(); // Wait for all passengers to finish
+        executor.shutdown();
+        System.out.println(" All passengers have completed their rides.");
+
     }
 }
