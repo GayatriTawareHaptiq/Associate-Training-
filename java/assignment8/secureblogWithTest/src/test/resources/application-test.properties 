@@ -1,0 +1,43 @@
+spring.application.name=secureblog-test
+
+# Test Database Configuration (H2 in-memory)
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+
+# JPA/Hibernate Test Configuration
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=false
+
+# JWT Test Configuration
+jwt.secret=dGVzdFNlY3JldEtleUZvckp1bml0VGVzdGluZ1B1cnBvc2Vz
+jwt.expiration=3600000
+
+# Disable some auto-configurations for faster tests
+spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+
+# Test specific settings
+logging.level.com.example.secureblog=DEBUG
+logging.level.org.springframework.security=DEBUG
+logging.level.org.springframework.web=DEBUG
+
+# Disable banner for cleaner test output
+spring.main.banner-mode=off
+
+# Profile
+spring.profiles.active=test
+
+# Disable CSRF for tests
+spring.security.csrf.enabled=false
+
+# Test Database
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driver-class-name=org.h2.Driver
+spring.jpa.hibernate.ddl-auto=create-drop
+
+# Test Profile
+spring.profiles.active=test
+logging.level.com.example.secureblog=DEBUG
